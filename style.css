@@ -1,0 +1,454 @@
+*{
+    margin: 0;
+    padding:0;
+    border:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    background-color: #0f1111;
+    height: 60px; 
+    align-items: center;   
+}
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav_logo{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    background-size: cover;
+    height: 55px;
+    width:100px;
+}
+.nav_logo:hover{
+    border: 1.5px solid white;
+}
+.first{
+    font-size: 0.85rem;
+    color: bisque;
+    justify-content: center;
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+.second{
+    font-size: 1 rem;
+    color: white;
+    font-size: 1 rem;
+    margin-left: 3px;
+}
+.addicon{
+    color: aliceblue;
+    display: flex;
+}
+.nav_address:hover{
+    border: 1.5px solid white;
+}
+.search_select{
+    height: 50px;
+    width:45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    border-top-left-radius:8px ;
+    border-bottom-left-radius:8px ;
+    margin-top: 5px;
+    background-color: blanchedalmond;
+}
+.search_select:hover{
+    border: 2.5px solid rgb(240, 150, 5)
+    
+}
+input{
+    height:46px;
+    width:500px;
+    margin-top: 5px;
+    justify-content: center;
+    
+}
+.searchbar{
+    display: flex;
+}
+.searchlogo{
+    height: 48px;
+    width: 45px;
+    background-color:orange;
+    background-size: cover;
+    margin-top: 5.97px;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius:10px ;
+    border-top-right-radius: 10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.searchlogo:hover{
+    height:50px;
+    width:47px;
+    background-color:antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.one{
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    
+}
+.sec{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    
+}
+.return:hover{
+    border: 1.5px solid white;
+}
+.signin:hover{
+    border: 1.5px solid white;
+
+}
+.langlogo{
+    background-color: white;
+    font-size: larger;
+
+}
+.lang{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.lang i{
+    font-size: 25px;
+}
+.searchlang{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: blanchedalmond;
+}
+.nav2{
+    background-color:rgba(55, 48, 48, 0.972);
+    height: 40px;
+    
+}
+.elements{
+    display: flex;
+    
+}
+.logo{
+    margin-top: 10px;
+}
+.para{
+    color: white;
+    display: flex;
+    margin-left: 10px;
+}
+.para p{
+    margin-right:15px;
+    padding-top: 8px;
+    padding-bottom: 11.9px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+.para p:hover{
+    border: 1.5px solid white;
+    
+}
+.logo:hover{
+    border: 1.5px solid white;
+
+}
+.heroimage{
+    display: flex;
+    height: 300px;
+    width: 1530px;
+
+}
+
+.logo{
+    font-weight: 700;
+    color: white;
+}
+.heroimage{
+    position: relative;
+    display: inline-block;
+  }
+  
+  .heroimage img {
+    display: block;
+    width: 1520px;
+    height: 300px;
+    
+  }
+  .overtext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.heroimage p{
+    position: absolute;
+    bottom: 5%;
+    background-color: azure;
+    padding: 10px 240px 10px 240px;
+
+}
+.shopsection{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgb(225, 147, 225);
+    margin-top: -7px;
+    height: 320px;
+    
+}
+.shopsection2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgb(225, 147, 225);
+    margin-top: -7px;
+    height: 320px;
+}
+
+.box{
+    background-color: white;
+    border-top: 15px solid rgb(225, 147, 225) ;
+    
+}
+.box img{
+    padding: 20px 40px 10px 40px;
+}
+.box h2{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+.box p{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 5px 10px 20px 40px;
+    font-size: small;
+}
+.box a{
+    text-decoration: none;
+}
+.box1{
+    background-color: white;
+}
+.box1 img{
+    padding: 20px 40px 10px 40px;
+}
+.box1 h2{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+.box1 p{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 5px 10px 20px 40px;
+    font-size: small;
+}
+.box1 a{
+    text-decoration: none;
+}
+.shopsection3{
+    background-color:rgb(225, 147, 225);
+    height: 340px;
+}
+.shopsection3 h2{
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;;
+    
+}
+.moviepics{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 0px 30px 20px;
+    margin-left: 50px;
+    background-color: white;
+    width: 1400px;
+    align-items: center;
+
+}
+.moviepics img:hover{
+    transform: scale(1.1);
+    transition: transform .05s ease;
+
+}
+.box1:hover{
+    transform: scale(1.02);
+    transition: transform .05s ease;
+    background-color: azure;
+}
+.box:hover{
+    transform: scale(1.02);
+    transition: transform .05s ease;
+    background-color: azure;
+
+}
+.empty{
+    width:1519px;
+    height: 20px;
+    background-color:rgb(225, 147, 225) ;
+}
+.shopsection3 h2{
+    padding: 10px 0px 10px 60px;
+    margin-left: 50px;
+    background-color: white;
+    width: 1360px;
+}
+
+.signin2{
+    height:70px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1 rem;
+    
+}
+.button button{
+    background-color: #ffdd00;
+    padding:5px 90px 5px 90px;
+    border-radius: 5px;
+    margin-top: 3px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+}
+.button button:hover{
+    transform: scale(1.05);
+}
+.reco p{
+    text-align: center;
+    font-weight: 550;
+    font-size: small;
+}
+.new p{
+    font-size: x-small;
+    font-weight: 500;
+    text-align: center;
+}
+.new a{
+    text-decoration: none;
+    font-weight: 600;
+}
+.empty2{
+    height: 50px;
+    border-bottom: 0.5px solid black;
+}
+.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(3, 3, 46);
+    color: white;
+    font-weight: 700;
+    font-size: small;
+    height: 40px;
+    border-bottom: 0.5px solid white;
+}
+back p{
+    padding: 10px;
+    font-size: 1rem;
+}
+.footlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2323;
+    border-top: 0.5px solid white;
+}
+.footlogo img{
+    height: 75px;
+    width: 100px;
+    
+}
+.foot2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color:rgba(16, 1, 1, 0.826);
+    height: 20px;
+    font-size: small;
+    padding-top: 10px;
+}
+.foot2 a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+.foot2 a:hover{
+    text-decoration: underline;
+
+}
+.foot3{
+    background-color:rgba(16, 1, 1, 0.826);
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: smaller;
+}
+.copyright{
+    color: white;
+}
+.get{
+    background-color: rgb(3, 3, 51);
+    height:200px;
+    color: white;
+}
+.heading{
+    padding: 17px;
+}
+.paragraph{
+    line-height: 25px;
+    padding-left: 20px;
+    font-size: smaller;
+}
+.whole{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgb(3, 3, 51) ;
+
+}
+.paragraph p:hover{
+    font-size: 16px;
+    transition-delay: 0ms;
+}
+.overtext a{
+    text-decoration: none;
+}
+.overtext a:hover{
+    color: rgb(93, 11, 11);
+}
+
+
+
+
